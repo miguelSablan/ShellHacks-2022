@@ -4,12 +4,11 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     scroll-behavior: smooth;
     font-family: 'Manrope', sans-serif;
 
 }
+
 /*NAV BAR START*/
 nav {
     display: flex;
@@ -24,29 +23,29 @@ nav {
     /*background-color: transparent;*/
     color: white;
     z-index: 0;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     justify-content: space-around;
     width: 43rem;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     font-weight: bold;
-  }
+}
 
-  nav ul a {
+nav ul a {
     text-decoration: none;
     color: white;
-  }
+}
 
-  nav li a:hover {
+nav li a:hover {
     /*border-bottom: 3px solid white;*/
     color: #B20ED3;
     transition: 0.4s ease;
-  }
+}
 
 .column {
     float: left;
@@ -65,12 +64,14 @@ h2 {
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    background-image: linear-gradient(-100deg,#7236F1, #A40DC2);
+    background-image: linear-gradient(-100deg, #7236F1, #A40DC2);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 
 }
+
+
 
 .ifile {
     margin-top: -10px;
@@ -124,7 +125,7 @@ a:active {
 }
 
 h3 {
-    background-image: linear-gradient(-100deg,#7236F1, #A40DC2);
+    background-image: linear-gradient(-100deg, #7236F1, #A40DC2);
     background-clip: text;
     -webkit-background-clip: text;
     font-weight: bold;
@@ -150,3 +151,13 @@ h3 {
     font-size: 24px;
     color: white;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+  }
+  
