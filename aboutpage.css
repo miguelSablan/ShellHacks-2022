@@ -1,0 +1,163 @@
+html {
+    background-color: #0D1015;
+
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+/*NAV BAR START*/
+nav {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    font-size: 25px;
+    justify-content: space-around;
+    padding: 1.5rem 3.5rem;
+    /*box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);*/
+    /*background-color: transparent;*/
+    color: white;
+    z-index: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 43rem;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    /*border-bottom: 3px solid white;*/
+    color: #B20ED3;
+    transition: 0.4s ease;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    background-image: linear-gradient(-100deg, #7236F1, #A40DC2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+
+
+.ifile {
+    margin-top: -10px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+a:link {
+    color: white;
+    position: relative;
+    animation: iconlink2 1s;
+
+}
+
+a:visited {
+    color: white;
+}
+
+@keyframes iconlink {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: -10px;
+    }
+}
+
+@keyframes iconlink2 {
+    from {
+        top: -10px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+a:hover {
+    color: #7236F1;
+    position: relative;
+    animation: iconlink 1s;
+    animation-fill-mode: forwards;
+}
+
+
+a:active {
+    color: white;
+
+}
+
+h3 {
+    background-image: linear-gradient(-100deg, #7236F1, #A40DC2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    color: transparent;
+    text-align: center;
+    font-size: 56px;
+
+}
+
+.p2 {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+
+}
+
+.s2 {
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-size: 24px;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+  }
+  
