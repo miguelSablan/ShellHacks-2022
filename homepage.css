@@ -10,4 +10,37 @@ html {
   p{
     color:white;
   }
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput::-moz-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput:-ms-input-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
       
