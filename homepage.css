@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Manrope", sans-serif;
+}
+
+/*NAV BAR START*/
+nav {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    font-size: 25px;
+    justify-content: space-around;
+    padding: 1.5rem 3.5rem;
+    background-color: black;
+    color: white;
+    z-index: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 43rem;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav li a:hover {
+    color: #B20ED3;
+    transition: 0.4s ease;
+  }
+
+  nav button {
+    position: absolute;
+    width: 133px;
+    height: 50px;
+    left: 1198px;
+    top: 31px;
+    border: none;
+
+    background: linear-gradient(112.12deg, rgba(164, 13, 194, 0.9) 49.71%, rgba(114, 54, 241, 0.79) 85%);
+    mix-blend-mode: normal;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+
+    cursor:pointer;
+}
+
+/*LANDING PAGE START*/
+.landing-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+#title-color {
+    color: #B20ED3;
+}
+
+.landing-page h1 {
+  font-size: 48px;
+  position: relative;
+  padding-bottom: 27rem;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(44, 7, 73, 0.418) 41.67%, rgba(8, 26, 70, 0) 100%);
+  mix-blend-mode: normal;
+}
+/*LANDING PAGE END*/
+
+/*BIO START*/
+.bio {
+  padding: 6rem 24rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(black, rgba(114, 54, 241, 0.79));
+  color: white;
+}
+
+.bio h1 {
+  font-size: 4rem;
+}
+/*BIO END*/
+
+footer {
+  background-color: transparent;
+  padding: 1.25rem;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  opacity: 1;
+}
