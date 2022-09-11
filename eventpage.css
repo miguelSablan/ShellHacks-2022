@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Manrope", sans-serif;
+}
+
+/*NAV BAR START*/
+nav {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    font-size: 25px;
+    justify-content: space-around;
+    padding: 1.5rem 3.5rem;
+    /*box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);*/
+    /*background-color: transparent;*/
+    color: white;
+    z-index: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 43rem;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav li a:hover {
+    color: #B20ED3;
+    transition: 0.4s ease;
+  }
+/*NAV BAR END*/
+
+/*EVENTS PAGE START*/
+.events-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+}
+  
+.column {
+  float: left;
+  padding: 10px;
+  height: 80%;
+}
+
+.left {
+  width: 25%;
+  background-color: #242325;
+}
+
+/*SEARCH FIELD AREA*/
+.search-field {
+  padding: 40px;
+}
+
+#site-search {
+   background: linear-gradient(112.12deg, rgba(164, 13, 194, 0.9) 49.71%, rgba(114, 54, 241, 0.79) 85%);
+    mix-blend-mode: normal;
+    border-radius: 15px;
+    text-decoration-color: white;
+    align-content: center;
+    font-size: 20px;
+    position:relative;
+    border: 0px;
+}
+
+.site-search :hover, .site-search:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+  }
+
+  input::placeholder {
+    color: rgb(255, 255, 255);
+    text-indent: 20px;
+    font-size: 15px;
+    opacity: 9;
+  }
+  
+/*SEARCH FIELD END*/
+
+.right {
+  width: 80%;
+  margin: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+iframe {
+  padding: 50px;
+}
+/*EVENTS PAGE END*/
+
+div.scroll {
+  margin:4px, 4px;
+  padding:40px;
+  background-color: transparent;
+  width: 350px;
+  height: 450px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+
+/*
+.project-container {
+    
+    position: absolute; 
+    left: 20px;
+}
+*/                          
+.event-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.event-title {
+    text-align: center;
+}
